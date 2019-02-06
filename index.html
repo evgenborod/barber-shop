@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Barbershop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="ref nav__mobile">меню</a>
+      <nav class="nav header__nav nav__link_hide">
+        <a href="#" class="ref nav__link nav__link_active">главная</a>
+        <a href="#" class="ref nav__link ">информация</a>
+        <a href="#" class="ref nav__link">новости</a>
+        <a href="#" class="ref nav__link">прайс-лист</a>
+        <a href="#" class="ref nav__link">магазин</a>
+        <a href="#" class="ref nav__link">контакты</a>
+        <a href="#" class="ref nav__link nav__link-exit">вход</a>
+      </nav>
+      <div class="header__logo container"></div>
+      <div class="advantages header__advantages">
+        <div class="advantages__item">
+          <h2 class="advantages__title">быстро</h2>
+          <p class="advantages__text">мы делаем свою работу быстро! два часа <br>
+            пролетят незаметно и вы — счастливый <br>
+            обладатель стильной стрижки-минутки!</p>
+        </div>
+        <div class="advantages__item">
+          <h2 class="advantages__title">круто</h2>
+          <p class="advantages__text">забудьте, как вы стриглись раньше, <br>
+            мы сделаем из вас звезду футбола или кино! <br>
+            во всяком случае внешне.</p>
+        </div>
+        <div class="advantages__item">
+          <h2 class="advantages__title">дорого</h2>
+          <p class="advantages__text">наши мастера — профессионалы своего дела и <br>
+            не могут стоить дешево. к тому же, разве цена <br>
+            не дает определенный статус?</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container container__column">
+    <div class="info-container info-container__fix">
+      <div class="info-container__item">
+        <h2 class="info-container__title">новости</h2>
+        <p class="info-container__text">
+          нам наконец завезли ягермастер! теперь вы <br>
+          можете пропустить стаканчик во время стрижки
+        </p>
+        <span class="info-container__date">25 сентября</span>
+        <p class="info-container__text">
+          в нашей команде пополнение, борис "бритва" <br>
+          стригунец, обладатель множества титулов и <br>
+          наград пополнил наши стройные ряды
+        </p>
+        <span class="info-container__date">19 сентября</span>
+        <a href="#" class="button info-container__button">все новости</a>
+      </div>
+      <div class="info-container__item">
+        <h2 class="info-container__title">фотогалерея</h2>
+        <img src="img/slider.png" alt="photo" class="info-container__img">
+        <a href="#" class="button info-container__button">назад</a>
+        <a href="#" class="button info-container__button">вперед</a>
+      </div>
+    </div>
+  </div>
+  <div class="container container__column">
+    <div class="info-container">
+      <div class="info-container__item">
+        <h2 class="info-container__title">контактная информация</h2>
+        <p class="info-container__text">
+          barbershop "borodinski" <br>
+          адрес: г. санкт-петербург, ул. собаки павлова, д.13 <br>
+          телефон: +7 (495) 666-02-666
+        </p>
+        <p class="info-container__text info-container__text_indent-top">
+          время работы: <br>
+          пн - пт: с 10:00 до 22:00
+          сб - вс: с 10:00 до 19:00
+        </p>
+        <a href="#" class="button info-container__button">как проехать</a>
+        <a href="#" class="button info-container__button">обратная связь</a>
+      </div>
+      <div class="container-info__item">
+        <h2 class="info-container__title">записаться</h2>
+        <p class="info-container__text">
+          укажите желаемую дату и мы свяжемся <br>
+          с вами для подтверждения брони
+        </p>
+        <form action="#" class="info-container__form">
+          <input type="text" class="info-container__input" id="form-input" placeholder="дата">
+          <input type="text" class="info-container__input" id="form-input" placeholder="время">
+          <input type="text" class="info-container__input" id="form-input" placeholder="ваше имя">
+          <input type="phone" class="info-container__input" id="form-input" placeholder="телефон">
+        </form>
+        <a href="#" class="button info-container__button info-container__button_size_big">отправить</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer footer__fix">
+    <div class="container">
+      <div class="container__contacts">
+        <p class="container__text">
+          barbershop "borodinski" <br>
+          адрес: г. санкт-петербург, ул. собаки павлова, д. 13 <br>
+          <a href="#" class="container__text container__text_underline">как нас найти?</a> <br>
+          телефон: +7(495) 666-02-666
+        </p>
+      </div>
+      <div class="container__socialities">
+        <p class="container__text">давайте дружить!</p>
+        <img src="img/vk-icon.png" alt="vk" class="container__image">
+        <img src="img/fb-icon.png" alt="fb" class="container__image">
+        <img src="img/insta-icon.png" alt="insta" class="container__image">
+      </div>
+      <div class="container__design">
+        <p class="container__text">дизайн сайта</p>
+        <div class="button container__button">glukhanko.ru</div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
